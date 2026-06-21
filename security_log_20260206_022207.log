@@ -1,0 +1,132 @@
+[02:04:56] ℹ️ 🔍 Starting vulnerability scan on: http://testphp.vulnweb.com
+[02:04:56] ℹ️ Testing for sql_injection...
+[02:05:13] ℹ️ Testing for xss...
+[02:05:31] ℹ️ Testing for path_traversal...
+[02:05:54] ℹ️ 📊 Scan completed: 0/9 tests positive
+[02:05:54] ✅ ✅ No obvious vulnerabilities detected
+[02:05:54] ❌ ❌ Vulnerability scan error: invalid command name ".!frame.!frame2.!frame2.!frame4.!labelframe3.!text"
+[02:06:32] ℹ️ 🔐 Checking SSL/TLS for google.com:443
+[02:06:37] ✅ ✅ Certificate valid for 59 days
+[02:06:37] ℹ️ 🔒 Cipher: TLS_AES_256_GCM_SHA384 (256 bits)
+[02:06:37] ✅ ✅ SSL/TLS connection successful
+[02:07:29] ✅ 📁 Loaded wordlist: C:/Windows/Logs/WindowsUpdate/WindowsUpdate.20260205.030941.601.1.etl (727 words)
+[02:08:07] ✅ 📁 Loaded wordlist: C:/Windows/Logs/WindowsUpdate/WindowsUpdate.20260122.160154.188.1.etl (70 words)
+[02:08:40] ℹ️ 📁 Selected file: C:/Windows/Logs/WindowsUpdate/WindowsUpdate.20260123.021411.116.1.etl
+[02:08:49] ℹ️ 🔍 Calculating SHA256 hash for: WindowsUpdate.20260123.021411.116.1.etl
+[02:08:49] ℹ️ 📏 File size: 20.00 KB
+[02:08:49] ℹ️    Progress: 100.0% | Speed: 26304.8 KB/s
+[02:08:49] ✅ ✅ SHA256 hash calculated in 0.02s
+[02:08:49] ℹ️ 🔑 Hash: 0e3d5bea75d070f666cd7b5f901f837760b77ddb9fb7ad4a85fcda5c93cb2af8
+[02:08:49] ✅ ✅ Hash calculation complete
+[02:08:49] ℹ️ 🔑 SHA256: 0e3d5bea75d070f666cd7b5f901f837760b77ddb9fb7ad4a85fcda5c93cb2af8
+[02:08:52] ℹ️ 🔍 Verifying file integrity: WindowsUpdate.20260123.021411.116.1.etl
+[02:08:52] ℹ️ 🔍 Calculating SHA256 hash for: WindowsUpdate.20260123.021411.116.1.etl
+[02:08:52] ℹ️ 📏 File size: 20.00 KB
+[02:08:52] ℹ️    Progress: 100.0% | Speed: 65179.5 KB/s
+[02:08:52] ✅ ✅ SHA256 hash calculated in 0.02s
+[02:08:52] ℹ️ 🔑 Hash: 0e3d5bea75d070f666cd7b5f901f837760b77ddb9fb7ad4a85fcda5c93cb2af8
+[02:08:52] ✅ ✅ INTEGRITY VERIFIED - Hashes match perfectly!
+[02:08:52] ℹ️    File: WindowsUpdate.20260123.021411.116.1.etl
+[02:08:52] ℹ️    Algorithm: SHA256
+[02:08:52] ℹ️    Expected: 0e3d5bea75d070f6...
+[02:08:52] ℹ️    Calculated: 0e3d5bea75d070f6...
+[02:09:05] ℹ️ 🔍 Auditing HTTP headers for: https://github.com
+[02:09:05] ℹ️ ============================================================
+[02:09:09] ℹ️ 🔍 Auditing HTTP headers for: https://github.com
+[02:09:09] ℹ️ ============================================================
+[02:09:20] ✅ ✅ Connection successful
+[02:09:20] ℹ️ 📝 Final URL: https://github.com/
+[02:09:20] ℹ️ 📊 Status Code: 200
+[02:09:20] ℹ️ 🖥️ Server: github.com
+[02:09:20] ℹ️ 📏 Content Length: 559,501 bytes
+[02:09:20] ℹ️ 
+🔐 SECURITY HEADER ANALYSIS:
+[02:09:20] ℹ️ ============================================================
+[02:09:20] ✅ ✅ Strict-Transport-Security: max-age=31536000; includeSubdomains; preload...
+[02:09:20] ✅ ✅ Content-Security-Policy: default-src 'none'; base-uri 'self'; child-src git...
+[02:09:20] ✅ ✅ X-Frame-Options: deny...
+[02:09:20] ✅ ✅ X-Content-Type-Options: nosniff...
+[02:09:20] ⚠️ ⚠️ X-XSS-Protection: 0... (Weak configuration)
+[02:09:20] ℹ️    Recommended: 1; mode=block
+[02:09:20] ✅ ✅ Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross...
+[02:09:20] ❌ ❌ Missing: Permissions-Policy (Controls browser features)
+[02:09:20] ℹ️    Recommended: Controls browser features
+[02:09:20] ✅ ✅ Cache-Control: max-age=0, private, must-revalidate...
+[02:09:20] ℹ️ 
+============================================================
+[02:09:20] ℹ️ 📊 SECURITY ASSESSMENT
+[02:09:20] ℹ️ ============================================================
+[02:09:20] ℹ️ 🎓 SECURITY GRADE: B
+[02:09:20] ℹ️ 📈 SECURITY SCORE: 85/100
+[02:09:20] ℹ️ ✅ Headers present: 7
+[02:09:20] ⚠️ ⚠️ Weak headers: 1
+[02:09:20] ❌ ❌ Missing headers: 1
+[02:09:20] ℹ️ 
+🔍 ADDITIONAL SECURITY CHECKS:
+[02:09:20] ℹ️ ============================================================
+[02:09:20] ✅ ✅ HTTPS Enabled (SSL/TLS)
+[02:09:20] ℹ️ 📦 Cookies detected: 3
+[02:09:20] ℹ️   🍪 _gh_sess: ✅ Secure, ❌ Not HttpOnly
+[02:09:20] ℹ️   🍪 _octo: ✅ Secure, ❌ Not HttpOnly
+[02:09:20] ℹ️   🍪 logged_in: ✅ Secure, ❌ Not HttpOnly
+[02:09:20] ℹ️ ⏱️ Response Time: 7770.60 ms
+[02:09:28] ✅ ✅ Connection successful
+[02:09:28] ℹ️ 📝 Final URL: https://github.com/
+[02:09:28] ℹ️ 📊 Status Code: 200
+[02:09:28] ℹ️ 🖥️ Server: github.com
+[02:09:28] ℹ️ 📏 Content Length: 559,505 bytes
+[02:09:28] ℹ️ 
+🔐 SECURITY HEADER ANALYSIS:
+[02:09:28] ℹ️ ============================================================
+[02:09:28] ✅ ✅ Strict-Transport-Security: max-age=31536000; includeSubdomains; preload...
+[02:09:28] ✅ ✅ Content-Security-Policy: default-src 'none'; base-uri 'self'; child-src git...
+[02:09:28] ✅ ✅ X-Frame-Options: deny...
+[02:09:28] ✅ ✅ X-Content-Type-Options: nosniff...
+[02:09:28] ⚠️ ⚠️ X-XSS-Protection: 0... (Weak configuration)
+[02:09:28] ℹ️    Recommended: 1; mode=block
+[02:09:28] ✅ ✅ Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross...
+[02:09:28] ❌ ❌ Missing: Permissions-Policy (Controls browser features)
+[02:09:28] ℹ️    Recommended: Controls browser features
+[02:09:28] ✅ ✅ Cache-Control: max-age=0, private, must-revalidate...
+[02:09:28] ℹ️ 
+============================================================
+[02:09:28] ℹ️ 📊 SECURITY ASSESSMENT
+[02:09:28] ℹ️ ============================================================
+[02:09:28] ℹ️ 🎓 SECURITY GRADE: B
+[02:09:28] ℹ️ 📈 SECURITY SCORE: 85/100
+[02:09:28] ℹ️ ✅ Headers present: 7
+[02:09:28] ⚠️ ⚠️ Weak headers: 1
+[02:09:28] ❌ ❌ Missing headers: 1
+[02:09:28] ℹ️ 
+🔍 ADDITIONAL SECURITY CHECKS:
+[02:09:28] ℹ️ ============================================================
+[02:09:28] ✅ ✅ HTTPS Enabled (SSL/TLS)
+[02:09:28] ℹ️ 📦 Cookies detected: 3
+[02:09:28] ℹ️   🍪 _gh_sess: ✅ Secure, ❌ Not HttpOnly
+[02:09:28] ℹ️   🍪 _octo: ✅ Secure, ❌ Not HttpOnly
+[02:09:28] ℹ️   🍪 logged_in: ✅ Secure, ❌ Not HttpOnly
+[02:09:28] ℹ️ ⏱️ Response Time: 11542.61 ms
+[02:12:52] ℹ️ 🔍 Starting vulnerability scan on: http://e-jaib.com
+[02:12:52] ℹ️ Testing for sql_injection...
+[02:13:20] ℹ️ Testing for xss...
+[02:13:53] ℹ️ Testing for path_traversal...
+[02:14:16] ℹ️ 📊 Scan completed: 0/9 tests positive
+[02:14:16] ✅ ✅ No obvious vulnerabilities detected
+[02:14:16] ❌ ❌ Vulnerability scan error: invalid command name ".!frame.!frame2.!frame2.!frame12.!labelframe3.!text"
+[02:14:45] ℹ️ 🔐 Analyzing password strength
+[02:14:45] ✅ 📊 Password Strength: Strong (8/9)
+[02:14:45] ℹ️    ✅ Length: Good (12+ characters)
+[02:14:45] ℹ️    ✅ Not a common password
+[02:14:45] ⚠️    ⚠️ Missing uppercase characters
+[02:14:45] ℹ️    ✅ Contains lowercase characters
+[02:14:45] ℹ️    ✅ Contains digits characters
+[02:14:45] ℹ️    ✅ Contains special characters
+[02:15:20] ℹ️ 🔐 Checking SSL/TLS for e-jaib.com:443
+[02:15:25] ✅ ✅ Certificate valid for 207 days
+[02:15:25] ℹ️ 🔒 Cipher: TLS_AES_256_GCM_SHA384 (256 bits)
+[02:15:25] ✅ ✅ SSL/TLS connection successful
+[02:16:42] ℹ️ 🔐 Checking SSL/TLS for kuraimibank.com:443
+[02:16:46] ✅ ✅ Certificate valid for 63 days
+[02:16:46] ℹ️ 🔒 Cipher: TLS_AES_256_GCM_SHA384 (256 bits)
+[02:16:46] ✅ ✅ SSL/TLS connection successful
+
